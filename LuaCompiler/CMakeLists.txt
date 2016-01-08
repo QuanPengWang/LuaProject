@@ -13,9 +13,9 @@ set(LuaCompiler_SRC
   ../Src/luac.c
 )
 
-ADD_EXECUTABLE(LuaCompiler ${LuaCompiler_SRC})
+ADD_EXECUTABLE(Luac ${LuaCompiler_SRC})
 
-target_link_libraries(LuaCompiler 
+target_link_libraries(Luac
   LuaLibary
 )
 

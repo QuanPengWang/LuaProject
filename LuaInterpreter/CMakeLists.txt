@@ -13,8 +13,8 @@ set(LuaInterpreter_SRC
   ../Src/lua.c
 )
 
-ADD_EXECUTABLE(LuaInterpreter ${LuaInterpreter_SRC})
+ADD_EXECUTABLE(Lua ${LuaInterpreter_SRC})
 
-target_link_libraries(LuaInterpreter 
+target_link_libraries(Lua
   LuaLibary
 )
